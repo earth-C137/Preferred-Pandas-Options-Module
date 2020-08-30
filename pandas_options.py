@@ -6,7 +6,7 @@ pd.set_option('display.width', 500)
 pd.set_option('display.precision', 3)
 pd.set_option('display.colheader_justify', 'center')
 
-# use to limit pd.info() because null checks on large
+# Uncomment below to limit pd.info() because null checks on large
 # datasets can be slow.
 
 # pd.set_option('max_info_columns', 5)
